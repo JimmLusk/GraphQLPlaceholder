@@ -1,0 +1,17 @@
+{
+  "name": "graphql-placeholder",
+  "version": "0.0.1",
+  "description": "A simple GraphQL API for placeholder data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jimm Lusk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "mongoose": "^5.2.13"
+  }
+}
