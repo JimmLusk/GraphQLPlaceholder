@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "coordsId": 1,
+    "line1": "1649 Timberridge Court",
+    "line2": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  },
+  {
+    "id": 2,
+    "coordsId": 2,
+    "line1": "1267 Martin Street",
+    "line2": "#203",
+    "city": "Nashville",
+    "state": "TN",
+    "postalCode": "37203"
+  },
+  {
+    "id": 3,
+    "coordsId": 3,
+    "line1": "416 McIver Street",
+    "line2": "",
+    "city": "Nashville",
+    "state": "TN",
+    "postalCode": "37211"
+  },
+  {
+    "id": 4,
+    "coordsId": 4,
+    "line1": "5906 Milton Avenue",
+    "line2": "",
+    "city": "Deale",
+    "state": "MD",
+    "postalCode": "20751"
+  },
+  {
+    "id": 5,
+    "coordsId": 5,
+    "line1": "1513 Cathy Street",
+    "line2": "",
+    "city": "Savannah",
+    "state": "GA",
+    "postalCode": "31415"
+  },
+  {
+    "id": 6,
+    "coordsId": 6,
+    "line1": "3034 Mica Street",
+    "line2": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  },
+  {
+    "id": 7,
+    "coordsId": 7,
+    "line1": "18 Densmore Drive",
+    "line2": "",
+    "city": "Essex",
+    "state": "VT",
+    "postalCode": "05452"
+  },
+  {
+    "id": 8,
+    "coordsId": 8,
+    "line1": "3162 Martin Luther King Junior Boulevard",
+    "line2": "#2",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  },
+  {
+    "id": 9,
+    "coordsId": 9,
+    "line1": "8315 Surf Drive",
+    "line2": "",
+    "city": "Panama City Beach",
+    "state": "FL",
+    "postalCode": "32408"
+  },
+  {
+    "id": 10,
+    "coordsId": 10,
+    "line1": "6601 West Ocotillo Road",
+    "line2": "",
+    "city": "Glendale",
+    "state": "AZ",
+    "postalCode": "85301"
+  },
+  {
+    "id": 11,
+    "coordsId": 11,
+    "line1": "1770 Colony Way",
+    "line2": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  },
+  {
+    "id": 12,
+    "coordsId": 12,
+    "line1": "5615 West Villa Maria Drive",
+    "line2": "",
+    "city": "Glendale",
+    "state": "AZ",
+    "postalCode": "85308"
+  },
+  {
+    "id": 13,
+    "coordsId": 13,
+    "line1": "6657 West Rose Garden Lane",
+    "line2": "",
+    "city": "Glendale",
+    "state": "AZ",
+    "postalCode": "85308"
+  },
+  {
+    "id": 14,
+    "coordsId": 14,
+    "line1": "159 Downey Drive",
+    "line2": "A",
+    "city": "Manchester",
+    "state": "CT",
+    "postalCode": "06040"
+  },
+  {
+    "id": 15,
+    "coordsId": 15,
+    "line1": "8800 Cordell Circle",
+    "line2": "#APT 000003",
+    "city": "Anchorage",
+    "state": "AK",
+    "postalCode": "99502"
+  },
+  {
+    "id": 16,
+    "coordsId": 16,
+    "line1": "6657 West Rose Garden Lane",
+    "line2": "",
+    "city": "Glendale",
+    "state": "AZ",
+    "postalCode": "85308"
+  },
+  {
+    "id": 17,
+    "coordsId": 17,
+    "line1": "6601 West Ocotillo Road",
+    "line2": "",
+    "city": "Glendale",
+    "state": "AZ",
+    "postalCode": "85301"
+  },
+  {
+    "id": 18,
+    "coordsId": 18,
+    "line1": "310 Timrod Road",
+    "line2": "",
+    "city": "Manchester",
+    "state": "CT",
+    "postalCode": "06040"
+  },
+  {
+    "id": 19,
+    "coordsId": 19,
+    "line1": "22572 Toreador Drive",
+    "line2": "",
+    "city": "Salinas",
+    "state": "CA",
+    "postalCode": "93908"
+  },
+  {
+    "id": 20,
+    "coordsId": 20,
+    "line1": "388 East Main Street",
+    "line2": "",
+    "state": "VT",
+    "postalCode": "05753"
+  },
+  {
+    "id": 21,
+    "coordsId": 21,
+    "line1": "560 Penstock Drive",
+    "line2": "",
+    "city": "Grass Valley",
+    "state": "CA",
+    "postalCode": "95945"
+  },
+  {
+    "id": 22,
+    "coordsId": 22,
+    "line1": "74 Ranch Drive",
+    "line2": "",
+    "city": "Montgomery",
+    "state": "AL",
+    "postalCode": "36109"
+  },
+  {
+    "id": 23,
+    "coordsId": 23,
+    "line1": "7 Underwood Place Northwest",
+    "line2": "",
+    "city": "Washington",
+    "state": "DC",
+    "postalCode": "20012"
+  },
+  {
+    "id": 24,
+    "coordsId": 24,
+    "line1": "308 Woodleaf Court",
+    "line2": "",
+    "city": "Glen Burnie",
+    "state": "MD",
+    "postalCode": "21061"
+  },
+  {
+    "id": 25,
+    "coordsId": 25,
+    "line1": "3162 Martin Luther King Junior Boulevard",
+    "line2": "#2",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  }
+]
