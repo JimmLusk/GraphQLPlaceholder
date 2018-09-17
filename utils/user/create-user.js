@@ -57,16 +57,16 @@ for(let i = 1; i <= numberOfUsers; i++){
 
 //console.log(usersArray);
 const usersData = JSON.stringify(usersArray, null, 2);
-fs.writeFile('users.json', usersData, ()=>{console.log('wrote to users.json')});
+fs.writeFile('./data/users/users.json', usersData, ()=>{console.log('wrote to users.json')});
 
 // console.log(addressesArray);
 const addressesData = JSON.stringify(addressesArray, null, 2);
-fs.writeFile('addresses.json', addressesData, ()=>{console.log('wrote to addresses.json')});
+fs.writeFile('./data/users/addresses.json', addressesData, ()=>{console.log('wrote to addresses.json')});
 
 // console.log(coordsArray);
 const coordsData = JSON.stringify(coordsArray, null, 2);
-fs.writeFile('coords.json', coordsData, ()=>{console.log('wrote to coords.json')});
+fs.writeFile('./data/users/coords.json', coordsData, ()=>{console.log('wrote to coords.json')});
 
 // console.log(dobsArray);
 const dobsData = JSON.stringify(dobsArray, null, 2);
-fs.writeFile('dobs.json', dobsData, ()=>{console.log('wrote to dobs.json')});
+fs.writeFile('./data/users/dobs.json', dobsData, ()=>{console.log('wrote to dobs.json')});

@@ -9,6 +9,7 @@
   "author": "Jimm Lusk (ajameslusk@gmail.com)",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.315.0",
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
     "faker": "^4.1.0",

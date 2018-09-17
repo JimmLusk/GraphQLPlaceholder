@@ -33,7 +33,7 @@ for(let i = 1; i <= commentsToCreate; i++){
 // console.log(comments);
 
 const postsData = JSON.stringify(posts, null, 2);
-fs.writeFile('posts.json', postsData, ()=>{console.log('wrote to posts.json');});
+fs.writeFile('./data/posts/posts.json', postsData, ()=>{console.log('wrote to posts.json');});
 
 const commentsData = JSON.stringify(comments, null, 2);
-fs.writeFile('comments.json', commentsData, ()=>{console.log('wrote to comments.json');});
+fs.writeFile('./data/posts/comments.json', commentsData, ()=>{console.log('wrote to comments.json');});

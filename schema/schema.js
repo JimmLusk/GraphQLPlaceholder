@@ -6,6 +6,7 @@ const users = require('../data/users/users.json');
 const addresses = require('../data/users/addresses.json');
 const coords = require('../data/users/coords.json');
 const dobs = require('../data/users/dobs.json');
+const todos = require('../data/todos/todos.json');
 
 // Posts Data
 const posts = require('../data/posts/posts.json');
@@ -20,6 +21,7 @@ const {
   GraphQLFloat,
   GraphQLInt,
   GraphQLList,
+  GraphQLBoolean,
   // GraphQLNonNull // Will be used with mutations
 } = graphql;
 
@@ -53,6 +55,12 @@ const UserType = new GraphQLObjectType({
       type : new GraphQLList(PostType),
       resolve(parent, args){
         return _.filter(posts, {userId: parseInt(parent.id)});
+      }
+    },
+    todos: {
+      type : new GraphQLList(TodoType),
+      resolve(parent, args){
+        return _.filter(todos, {userId: parseInt(parent.id)});
       }
     }
   })
@@ -134,6 +142,15 @@ const CommentType = new GraphQLObjectType({
   })
 }); 
 
+const TodoType = new GraphQLObjectType({
+  name: 'Todo',
+  fields: ( ) =>  ({
+    id: { type: GraphQLID },
+    title: { type: GraphQLString },
+    completed: { type: GraphQLBoolean }
+  })
+});
+
 const RootQuery = new GraphQLObjectType({
   name: 'RootQueryType',
   fields: {
@@ -162,7 +179,7 @@ const RootQuery = new GraphQLObjectType({
       resolve(parent, args){
         return posts;
       }
-    }
+    },
   }
 });
 

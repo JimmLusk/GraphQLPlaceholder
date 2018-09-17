@@ -10,11 +10,26 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.use(express.static('public'));
+
 app.use('/graphql', graphqlHTTP({
   schema,
   graphiql: true,
 }));
 
-app.listen(8080, () => {
-  console.log('Listening on port 8080');
-});
+function runServer(port = 8080){
+  const server = app 
+    .listen(port, () => {
+      console.info(`App listening on port ${server.address().port}`);
+    })
+    .on('error', err => {
+      console.error('Express failed to start');
+      console.error(err);
+    });
+} 
+
+if (require.main === module){
+  runServer();
+}
+
+module.exports = { app };
