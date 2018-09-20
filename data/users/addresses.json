@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "coordsId": 1,
+    "line1": "3162 Martin Luther King Junior Boulevard",
+    "line2": "#2",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  },
+  {
+    "id": 2,
+    "coordsId": 2,
+    "line1": "637 Britannia Drive",
+    "line2": "",
+    "city": "Vallejo",
+    "state": "CA",
+    "postalCode": "94591"
+  },
+  {
+    "id": 3,
+    "coordsId": 3,
+    "line1": "3729 East Mission Boulevard",
+    "line2": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72703"
+  },
+  {
+    "id": 4,
+    "coordsId": 4,
+    "line1": "310 Timrod Road",
+    "line2": "",
+    "city": "Manchester",
+    "state": "CT",
+    "postalCode": "06040"
+  },
+  {
+    "id": 5,
+    "coordsId": 5,
+    "line1": "1649 Timberridge Court",
+    "line2": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  },
+  {
+    "id": 6,
+    "coordsId": 6,
+    "line1": "10826 Pointe Royal Drive",
+    "line2": "",
+    "city": "Bakersfield",
+    "state": "CA",
+    "postalCode": "93311"
+  },
+  {
+    "id": 7,
+    "coordsId": 7,
+    "line1": "716 Waller Road",
+    "line2": "",
+    "city": "Brentwood",
+    "state": "TN",
+    "postalCode": "37027"
+  },
+  {
+    "id": 8,
+    "coordsId": 8,
+    "line1": "5403 Illinois Avenue",
+    "line2": "",
+    "city": "Nashville",
+    "state": "TN",
+    "postalCode": "37209"
+  },
+  {
+    "id": 9,
+    "coordsId": 9,
+    "line1": "270 Chrissy's Court",
+    "line2": "",
+    "state": "VT",
+    "postalCode": "05443"
+  },
+  {
+    "id": 10,
+    "coordsId": 10,
+    "line1": "3162 Martin Luther King Junior Boulevard",
+    "line2": "#2",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  },
+  {
+    "id": 11,
+    "coordsId": 11,
+    "line1": "1347 Blackwalnut Court",
+    "line2": "",
+    "city": "Annapolis",
+    "state": "MD",
+    "postalCode": "21403"
+  },
+  {
+    "id": 12,
+    "coordsId": 12,
+    "line1": "1770 Colony Way",
+    "line2": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72704"
+  },
+  {
+    "id": 13,
+    "coordsId": 13,
+    "line1": "8821 West Myrtle Avenue",
+    "line2": "",
+    "city": "Glendale",
+    "state": "AZ",
+    "postalCode": "85305"
+  },
+  {
+    "id": 14,
+    "coordsId": 14,
+    "line1": "5811 Crossings Boulevard",
+    "line2": "",
+    "city": "Nashville",
+    "state": "TN",
+    "postalCode": "37013"
+  },
+  {
+    "id": 15,
+    "coordsId": 15,
+    "line1": "2721 Lindsay Avenue",
+    "line2": "",
+    "city": "Louisville",
+    "state": "KY",
+    "postalCode": "40206"
+  },
+  {
+    "id": 16,
+    "coordsId": 16,
+    "line1": "3466 Southview Avenue",
+    "line2": "",
+    "city": "Montgomery",
+    "state": "AL",
+    "postalCode": "36111"
+  },
+  {
+    "id": 17,
+    "coordsId": 17,
+    "line1": "8376 Albacore Drive",
+    "line2": "",
+    "city": "Pasadena",
+    "state": "MD",
+    "postalCode": "21122"
+  },
+  {
+    "id": 18,
+    "coordsId": 18,
+    "line1": "4695 East Huntsville Road",
+    "line2": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "postalCode": "72701"
+  },
+  {
+    "id": 19,
+    "coordsId": 19,
+    "line1": "913 Fallview Trail",
+    "line2": "",
+    "city": "Nashville",
+    "state": "TN",
+    "postalCode": "37211"
+  },
+  {
+    "id": 20,
+    "coordsId": 20,
+    "line1": "5928 West Mauna Loa Lane",
+    "line2": "",
+    "city": "Glendale",
+    "state": "AZ",
+    "postalCode": "85306"
+  },
+  {
+    "id": 21,
+    "coordsId": 21,
+    "line1": "700 Winston Place",
+    "line2": "",
+    "city": "Anchorage",
+    "state": "AK",
+    "postalCode": "99504"
+  },
+  {
+    "id": 22,
+    "coordsId": 22,
+    "line1": "1745 T Street Southeast",
+    "line2": "",
+    "city": "Washington",
+    "state": "DC",
+    "postalCode": "20020"
+  },
+  {
+    "id": 23,
+    "coordsId": 23,
+    "line1": "232 Maine Avenue",
+    "line2": "",
+    "city": "Panama City",
+    "state": "FL",
+    "postalCode": "32401"
+  },
+  {
+    "id": 24,
+    "coordsId": 24,
+    "line1": "31353 Santa Elena Way",
+    "line2": "",
+    "city": "Union City",
+    "state": "CA",
+    "postalCode": "94587"
+  },
+  {
+    "id": 25,
+    "coordsId": 25,
+    "line1": "716 Waller Road",
+    "line2": "",
+    "city": "Brentwood",
+    "state": "TN",
+    "postalCode": "37027"
+  }
+]
