@@ -1,8 +1,112 @@
+/* Main Strcucture of HTML */
+html,
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 18px;
+  background-color: #FFF;
+  color: #052D49;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+body {
+  min-height: 100%;
+  position: relative;
+}
+main {
+  padding: 10px 40px 20px 40px;
+  padding-bottom: 60px;   /* Height of the footer */
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;   /* Height of the footer */
+  background: rgb(243,244,245);
+  text-align: center;
+  clear: both;
+  margin-top: -60px;
 }
 
+
+/* Universally Apply to elements */
 a {
-  color: #00B7FF;
+  color: rgb(0, 150, 209);
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
+}
+
+/* divs, classes, etc. in order */
+.intro {
+  text-align: center;
+  font-size: 1.25em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.examples{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.code-box {
+  background-color: rgb(243,244,245);
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 30px 0;
+}
+
+.request{
+  display: block;
+  margin: 0 auto;
+
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+
+  padding: 12px 18px;
+  border: none;
+  outline: none;
+
+  background-color: #052D49;
+  color: rgb(243,244,245);
+
+  box-shadow: -4px 3px rgb(0, 118, 165);
+  transform: scale(1.01) translateX(4px) translateY(-3px);
+
+  cursor: pointer;
+  transition: 0.35s ease;
+}
+
+.request:active {
+  transition: 0.25s ease;
+  transform: none;
+  box-shadow: none;
+}
+
+.response {
+  color: rgb(243,244,245);
+}
+
+.credit {
+  max-width: 500px;
+  margin: 150px auto 0 auto;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 0.8em;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.show {
+  transition: 0.3s;
+  color: #052D49;
 }

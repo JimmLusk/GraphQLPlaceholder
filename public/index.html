@@ -1,22 +1,73 @@
-<html>
-
+<html lang="en">
 <head>
   <title>GraphQL Placeholder</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="./stylesheets/style.css">
+  <link rel="shortcut icon" href="./favicon-J.ico">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Rubik" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon-J.ico">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
 </head>
-
 <body>
+<main>
   <h1>GraphQL Placeholder</h1>
-  <p>A fake online <a href='https://graphql.org/learn'>GraphQL</a> API for testing, prototyping, and learning.</p>
-  <p>Inspired by <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder</a></p>
-  <p>Built with <a href="https://www.npmjs.com/package/express">Express</a>, <a href="https://www.npmjs.com/package/graphql">GraphQL</a>, and hosted on <a href="https://aws.amazon.com/">AWS Elastic Beanstalk</a>.</p>
-  <p>Avatar images from <a href="http://avatars.adorable.io/">Adorable</a>.</p>
-  <p>Addresses from <a href="https://github.com/EthanRBrown/rrad">RRAD</a>.</p>
-  <p>Some data generated with <a href="https://github.com/Marak/faker.js">Faker.js</a>.</p>
-  <p>Check out <a href="/graphql">GraphiQL</a> to get aquainted!</p>
-</body>
-<footer>
-  <div>Built with ❤️ by <a href="https://www.jimmylusk.com">Jimm Lusk</a></div>
-</footer>
 
+  <div class="intro">
+    <p>A fake online <a href='https://graphql.org/learn'>GraphQL</a> API for whenever you need some fake data. 
+      Use it to learing a new library, create or follow a tutorial, prototype your next project, etc.</p>
+    <p>Check out the <a href="/graphql">GraphiQL</a> to get aquainted!</p>
+  </div>
+
+  <div class="examples">
+    <h2>Example</h2>
+    <!--Below text inside <pre> is intentionally formatted-->
+    <div class="query code-box"> 
+
+      <pre>
+  {
+    user(id:4){
+      name
+      username
+        email
+    }
+  }</pre>
+
+    </div>
+
+    <button class="request">
+      Send Query >
+    </button>
+
+    <div class="response code-box">
+
+      <pre>
+  {
+    "data": {
+      "user": {
+        "name": "Branson Tremblay",
+        "username": "realBransonTremblay",
+        "email": "Branson@Tremblay.com"
+      }
+    }
+  }</pre>
+
+    </div>
+  </div>
+
+  <div class="credit">
+    <p>Inspired by <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder.</a>
+      Built with <a href="https://www.npmjs.com/package/express">Express</a>, <a href="https://www.npmjs.com/package/graphql">GraphQL</a>.
+    Avatar images from <a href="http://avatars.adorable.io/">Adorable</a>.
+    Addresses from <a href="https://github.com/EthanRBrown/rrad">RRAD</a>.
+    Some data generated with <a href="https://github.com/Marak/faker.js">Faker.js</a>.</p>
+  </div>
+
+</main>
+<footer>
+  <div class="footer-text">Built with ❤️ by <a href="https://www.jimmylusk.com">Jimm Lusk</a></div>
+</footer>
+</body>
+<script language="javascript" type="text/javascript" src="./javascripts/show-request.js"></script>
 </html>
