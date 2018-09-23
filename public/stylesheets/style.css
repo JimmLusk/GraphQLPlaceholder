@@ -15,7 +15,7 @@ body {
   position: relative;
 }
 main {
-  padding: 10px 40px 20px 40px;
+  padding: 10px 20px 20px 20px;
   padding-bottom: 60px;   /* Height of the footer */
 }
 footer {
@@ -50,6 +50,24 @@ h1 {
   margin: 0 auto;
 }
 
+.uri {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.uri-value {
+  padding: 10px 6px;
+  font-size: 0.9em;
+  width: 20.7em;
+  letter-spacing: -0.4px;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+.copy-btn {
+  display: inline-block;
+  margin: 10px auto;
+}
+
 .examples{
   max-width: 600px;
   margin: 0 auto;
@@ -62,29 +80,27 @@ h1 {
   margin: 30px 0;
 }
 
-.request{
+.request-btn {
   display: block;
   margin: 0 auto;
-
-  font-family: 'Cabin', Helvetica, Arial, sans-serif;
-  font-size: 0.9em;
-
-  padding: 12px 18px;
-  border: none;
-  outline: none;
-
-  background-color: #052D49;
-  color: rgb(243,244,245);
-
-  box-shadow: -4px 3px rgb(0, 118, 165);
-  transform: scale(1.01) translateX(4px) translateY(-3px);
-
-  cursor: pointer;
-  transition: 0.35s ease;
 }
 
-.request:active {
-  transition: 0.25s ease;
+.btn{
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  padding: 10px 16px;
+  border: none;
+  outline: none;
+  background-color: #052D49;
+  color: rgb(243,244,245);
+  box-shadow: -4px 3px rgb(0, 118, 165);
+  transform: scale(1.01) translateX(4px) translateY(-3px);
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.btn:active {
+  transition: 0.2s ease;
   transform: none;
   box-shadow: none;
 }
@@ -109,4 +125,8 @@ h1 {
 .show {
   transition: 0.3s;
   color: #052D49;
+}
+
+@media (max-width: 400px) { 
+  
 }
