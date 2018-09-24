@@ -35,6 +35,9 @@ a {
   color: rgb(0, 150, 209);
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 
 h1 {
   text-align: center;
@@ -51,7 +54,7 @@ h1 {
 }
 
 .uri {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -69,7 +72,7 @@ h1 {
 }
 
 .examples{
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -105,8 +108,9 @@ h1 {
   box-shadow: none;
 }
 
-.response {
+.response, .response-link {
   color: rgb(243,244,245);
+  cursor: default;
 }
 
 .credit {
@@ -123,8 +127,18 @@ h1 {
 }
 
 .show {
-  transition: 0.3s;
+  transition-delay: 0.3s;
+  transition: 0.3s ease;
   color: #052D49;
+}
+
+a.show{
+  color: rgb(7, 63, 104);
+  cursor: pointer;
+}
+
+a.show:hover{
+  text-decoration: underline;
 }
 
 @media (max-width: 400px) { 

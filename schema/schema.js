@@ -6,6 +6,8 @@ const users = require('../data/users/users.json');
 const addresses = require('../data/users/addresses.json');
 const coords = require('../data/users/coords.json');
 const dobs = require('../data/users/dobs.json');
+const avatars = require('../data/users/avatars.json');
+
 const todos = require('../data/todos/todos.json');
 
 // Posts Data
@@ -66,7 +68,7 @@ const UserType = new GraphQLObjectType({
     avatar: {
       type : AvatarType,
       resolve(parent, args){
-        
+        return avatars[parent.avatarId];
       }
     }
   })

@@ -16,6 +16,7 @@
   <div class="intro">
     <p>A fake online <a href='https://graphql.org/learn'>GraphQL</a> API for whenever you need some fake data. 
       Use it to learn a new library, create or follow a tutorial, prototype your next project, etc.</p>
+    <p>Unfamiliar with GraphQL? I reccomend <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f">The Net Ninja's Tutorial</a>.</p>
     <p>Check out the <a href="/graphql">GraphiQL</a> to get aquainted!</p>
   </div>
 
@@ -32,10 +33,13 @@
 
       <pre>
   {
-    user(id:4){
+    user(id:12){
       name
       username
-        email
+      email
+      avatar{
+        large
+      }
     }
   }</pre>
 
@@ -51,9 +55,12 @@
   {
     "data": {
       "user": {
-        "name": "Branson Tremblay",
-        "username": "realBransonTremblay",
-        "email": "Branson@Tremblay.com"
+        "name": "Delia Marks",
+        "username": "Delialoveshorses2001",
+        "email": "Delia@Marks.com",
+        "avatar": {
+          "large": "<a class="response-link" href="#">https://api.adorable.io/avatars/400/4578</a>"
+        }
       }
     }
   }</pre>
